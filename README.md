@@ -23,4 +23,5 @@
 
 
 Я пока не владею данным стэком технологий и поскольку время на выполнение заданий ограниченное, я веб-приложение в свеом понимании
-[Mini-Youtube on JavaScript}(https://perekopskyi.github.io/task5-miniYoutube/ перейти на страницу приложения)
+<br>
+[Mini-Youtube on JavaScript}(https://perekopskyi.github.io/task5-miniYoutube/ "перейти на страницу приложения")
