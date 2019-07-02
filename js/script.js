@@ -10,16 +10,16 @@ function showRegistrationPage() {
       <h2>Регистрация</h2>
     </div>
     <div class="row justify-content-center form">
-      <form method="post" action="">
+      <form method="post" action="send.php" >
         <label for="name">Имя</label>
-        <input id="name" class="form-control" type="text">
+        <input id="name" name="name" class="form-control" type="text">
         <label for="surname">Фамилия</label>
-        <input id="surname" class="form-control" type="text">
+        <input id="surname" name="surname" class="form-control" type="text">
         <label for="login">Логин</label>
-        <input id="login" class="form-control" type="text">
+        <input id="login" name="login" class="form-control" type="text">
         <label for="password">Пароль</label>
-        <input id="password" class="form-control" type="password">
-        <input class="reg-btn" type="button" value="Зарегистрироваться">
+        <input id="password" name="password" class="form-control" type="password">
+        <button id="bsub" type="submit" class="btn btn-primary btn-round" name="submit">Зарегистрироваться</button>
       </form>
     </div>
   </div>
@@ -37,12 +37,12 @@ function showAutorizationPage() {
       <h2> Авторизация </h2> 
     </div>
     <div class="row justify-content-center form">
-      <form method = "post" action = "">
+      <form method = "post" action = "check.php">
         <label for = "login"> Логин </label>
-        <input id = "login" class = "form-control" type = "text" >
+        <input id="login" name="login" class="form-control" type="text">
         <label for = "password" > Пароль </label>
-        <input id = "password" class = "form-control" type = "password" >
-        <input class = "reg-btn" type = "button" value = "Войти" >
+        <input id="password" name="password" class="form-control" type="password">
+        <input class="reg-btn" type="submit" value="Войти" >
       </form>
     </div>
   </div>
